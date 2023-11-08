@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: end;
+}
+.search {
+  display: flex;
+  width: 35%;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 35px 25px 0 0;
+}
+
+.navbarinput {
+  border: 0;
+  background-color: #f9fafc !important;
+  width: 100%;
+  height: 30px;
+  margin: 10px 15px;
+  border-radius: 15px;
+  padding-left: 10px;
+}

@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+}
+
+.header h2 {
+  color: #8d8d8d;
+}
+
+.header button {
+  background-color: #4427fb;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 40px;
+  text-transform: none;
+}

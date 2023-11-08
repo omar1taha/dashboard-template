@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  height: 100%;
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 75px;
+    padding: 5rem 1rem;
+    border-right: 1px solid hsla(0, 0%, 74%, 1);
+    background-image: linear-gradient(#d11a2a, #4427fb);
+  }
+
+  .content {
+    flex: 1 0 auto;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+  }
+}
